@@ -1,3 +1,36 @@
-.title h1{
+/* INDEX PAGE */
+#title{
     text-align: center;
+    padding-top: 20%;
+    color:  #f2f2f2;
+   /* text-shadow: 2px 2px #330033;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background: #bfbfbf;
+    color:  #666666
+}
+
+/* buttons css */
+#buttons{
+    float: right;
+    position: relative;
+    left: -50%
+    
+}
+#buttons ul{
+    list-style: none;
+    position: relative;
+    left: 50%;
+}
+
+#buttons ul li{
+    display: inline;
+    padding:20px;
+}
+
+button{
+    background:  #666666;
+    border: none;
+    color:  #f2f2f2;
 }

@@ -1,22 +1,50 @@
 /* INDEX PAGE */
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
 #title{
     text-align: center;
     padding-top: 20%;
     color:  #f2f2f2;
    /* text-shadow: 2px 2px #330033;*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lobster', cursive;
 }
 body{
     background: #bfbfbf;
     color:  #666666
 }
+/*header*/
+h1 {
+ font-size:5em;
+ font-family: 'Lobster', cursive;
+ user-select:none;
+
+ text-shadow: 
+    -1px -1px 0px #bfbfbf, 
+    3px 3px 0px #bfbfbf,
+    7px 7px 0px #666666;
+
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+h1:hover{
+ font-size:5em;
+ font-family: 'Lobster', cursive;
+ user-select:none;
+ color: #668cff; 
+
+ text-shadow: 
+    -1px -1px 0px #bfbfbf, 
+    3px 3px 0px #bfbfbf,
+    7px 7px 0px #666666;
+}
+
 
 /* buttons css */
 #buttons{
     float: right;
     position: relative;
-    left: -50%
-    
+    left: -52%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #buttons ul{
     list-style: none;
@@ -33,4 +61,15 @@ button{
     background:  #666666;
     border: none;
     color:  #f2f2f2;
+    padding: 20px 30px;
+    border-radius: 15px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-size: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #668cff; 
+    color: white;
 }

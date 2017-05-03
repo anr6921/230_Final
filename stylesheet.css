@@ -320,3 +320,8 @@ body {
 	position: absolute;
 	width: 180px;
 }
+
+body{
+    background: #bfbfbf;
+    color:  #666666
+}

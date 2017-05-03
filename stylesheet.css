@@ -92,7 +92,9 @@ body {
 	top: 0;
 	z-index: -1;
 }
-
+/* BUBBLES */
+/* https://codepen.io/Mark_Bowley/pen/mEtqj */
+/* courtesy of Mark Bowley */
 /* KEYFRAMES */
 
 @-webkit-keyframes animateBubble {

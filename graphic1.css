@@ -16,6 +16,19 @@
 	margin: 10px auto;
 	border-radius: 50px;
 }
+.drop-ball {
+	width: 10px;
+	height: 10px;
+	margin: 10px auto;
+	border-radius: 50px;
+}
+
+.drop-ball {
+	background: red; 
+	-webkit-animation: right 2s infinite ease-in-out;
+	-moz-animation: right 2s infinite ease-in-out;
+	animation: right 2s infinite ease-in-out;
+}
 
 .ball:nth-child(1) {
 	background: #668cff; 

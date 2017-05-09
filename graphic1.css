@@ -17,7 +17,7 @@
 	margin: 10px auto;
 	border-radius: 50px;
 }
-.drop-ball {
+#drop-ball {
 	width: 20px;
 	height:20px;
 	margin: 10px auto;
@@ -25,7 +25,7 @@
 	border-radius: 50px;
 }
 
-.drop-ball {
+#drop-ball {
 	background: red; 
 
 }

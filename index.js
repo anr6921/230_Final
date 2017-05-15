@@ -24,16 +24,20 @@ function showContent(project)
 {
     var lightOnDiv = document.getElementById('light-on');
     var lightOffDiv = document.getElementById('light-off');
+ 
 
     switch(project)
     {
         case 'light-on': 
         lightOnDiv.style.display='initial';
         lightOffDiv.style.display='none';
+        document.body.style.backgroundColor ="#bfbfbf";
+        
         break;
         case 'light-off':
         lightOnDiv.style.display='none';
         lightOffDiv.style.display='initial';
+        document.body.style.backgroundColor ="grey";
         break;
     }
 }

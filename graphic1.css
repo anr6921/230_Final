@@ -1,5 +1,9 @@
 /* main contenct css */
-
+#drop{
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
 /* graphic css */
 .container {
 	width: 300px;

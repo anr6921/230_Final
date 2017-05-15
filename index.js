@@ -11,7 +11,7 @@ function moveDown(){
     document.getElementById("drop-ball").animate([
         //keyframes
         {transform: 'translateY(0px)'},
-        {transform: 'translateY(-300px)'}
+        {transform: 'translateY(300px)'}
     ], {
         //timing
         duration:1000

@@ -1,6 +1,11 @@
+// LOAD
+    //http://soundbible.com/2067-Blop.html
+    var pop = new Audio("pop.wav");
+
 // TITLE PAGE
 function pop(bubble)
 {
+    pop.play();
     var bub = bubble;
     bub.style.display="none";
 }
@@ -31,7 +36,9 @@ function showContent(project)
 {
     var lightOnDiv = document.getElementById('light-on');
     var lightOffDiv = document.getElementById('light-off');
- 
+    //https://www.soundjay.com/switch-sounds-1.html
+    var sound = new Audio("switch-1.wav");
+    sound.play();
 
     switch(project)
     {

@@ -39,7 +39,9 @@ body{
 */
 
 
-
+#content{
+    text-align: center;
+}
 h1 {
 
  font-size:5em;

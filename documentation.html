@@ -9,24 +9,27 @@
     </head>
 
     <body>
-        <div id ="title" style="margin-top: -100px;">
+        <div id ="title" style="padding-top: 0;">
             <h1>Documentation</h1>
         </div>
         <div id="content" style="width: 50%; min-width: 300px; position: relative; left: 25%;">
             <ul style="list-style: none;">
                 <li>Title font: Lobster, from <a href="https://fonts.google.com/specimen/Lobster">Google Fonts</a></li>
                 <li>Content font: Raleway, from <a href="https://fonts.google.com/specimen/Raleway">Google Fonts</a></li>
+                <li><h2>Home</h2></li>
+                <li>Bubble CSS couresty of <a href=" https://codepen.io/Mark_Bowley/pen/mEtqj">Mark Bowley</a></li>
+                <li>I added a hover style to Bowley's CSS, changing the bubble's color and the cursor to a pointer. Addtionally, I added a "pop" JavaScript function so the bubbles would disappear when clicked.</li>
                 <li><h2>Page 1</h2></li>
                 <li>Brick SVG background courtesy of <a href="http://www.heropatterns.com/">Hero Patterns</a></li>
                 <li>Used CSS animations for consistent ball animations, JavaScript function called when button is clicked to drop red ball.</li>
                 <li><h2>Page 2</h2></li>
                 <li>Lightbulb SVG courtesy of <a href="https://upload.wikimedia.org/wikipedia/commons/d/dd/Emojione_1F4A1.svg">Wikimedia Commons</a>.</li>
                 <li>I changed the colors of  the light-on and light-off in two separate SVG files. These two SVG files are in divs which change in a JavaScript function I wrote. This function also changes the background color.</li>
+
+                <button id="home" onclick="window.location.href='index.html'" style="margin-top: 90px;">home</button>              
+                <section id="copyright" style="padding-top: 40px;">&copy; Anna Rosenberg 2017</section>     
         </div>
-        <div id="bottom"> 
-            <button id="home" onclick="window.location.href='index.html'">home</button>              
-            <section id="copyright" style="padding-top: 40px;">&copy; Anna Rosenberg 2017</section>     
-        </div>
+
 
     </body>
 </html>

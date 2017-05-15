@@ -1,3 +1,10 @@
+// TITLE PAGE
+function pop(bubble)
+{
+    var bub = bubble;
+    bub.style.display="none";
+}
+
 
 // GRAPHIC 1 
 var $ball = document.getElementById("drop-ball");

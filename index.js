@@ -1,13 +1,12 @@
-// LOAD
-    //http://soundbible.com/2067-Blop.html
-    var pop = new Audio("pop.wav");
-
 // TITLE PAGE
 function pop(bubble)
 {
+    //http://soundbible.com/2067-Blop.html
+    var pop = new Audio("pop.wav");
     pop.play();
     var bub = bubble;
     bub.style.display="none";
+
 }
 
 

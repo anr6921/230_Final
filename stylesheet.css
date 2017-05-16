@@ -7,6 +7,10 @@ ul li{
     font-size: 16px;
 }
 
+ul#documentation li h2{
+   margin-top: 50px;
+}
+
 a{
     color:#666666;
     text-decoration: none;
@@ -27,9 +31,13 @@ a:hover{
     color:  #f2f2f2;
    /* text-shadow: 2px 2px #330033;*/
     font-family: 'Lobster', cursive;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    animation: fadein 3s;
 }
-body{
-    
+
+
+
+body{ 
     background: #bfbfbf;
     color:  #666666
 }
@@ -126,6 +134,30 @@ button:hover{
     background-color: #668cff; 
     color: white;
      border-radius: 50%;
+}
+#button1{
+    animation-delay: 2s;
+    animation: 1s ease-out 0s 1 buttonload;
+}
+#button2{
+    animation: 1.5s ease-out 0s 1 buttonload;
+}
+#button3{
+    animation: 2s ease-out 0s 1 buttonload;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes buttonload{ 
+    0%{
+        transform: translateY(200%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 body {
